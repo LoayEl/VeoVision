@@ -1,0 +1,39 @@
+# VeoVision - Football AI Dependencies
+
+# Core ML/CV Framework
+ultralytics>=8.3.0      # YOLOv8 object detection framework
+torch>=2.4.0           # PyTorch (CPU version)
+torchvision>=0.19.0    # PyTorch vision utilities
+
+# Dataset Management
+roboflow>=1.1.0        # Dataset download and management
+
+# Image Processing
+opencv-python>=4.8.0   # Computer vision library
+pillow>=10.0.0        # Image manipulation
+
+# Scientific Computing
+numpy>=1.24.0         # Numerical computing
+pandas>=2.0.0         # Data manipulation
+scipy>=1.11.0         # Scientific computing
+
+# Visualization
+matplotlib>=3.7.0     # Plotting and visualization
+seaborn>=0.12.0       # Statistical visualization
+
+# Jupyter Notebook Support
+jupyter>=1.0.0        # Jupyter notebook
+ipython>=8.12.0       # Interactive Python shell
+ipywidgets>=8.0.0     # Interactive widgets for notebooks
+
+# Utilities
+pyyaml>=6.0           # YAML file parsing
+tqdm>=4.65.0          # Progress bars
+requests>=2.31.0      # HTTP library
+
+# Optional: For GPU support (uncomment if using NVIDIA GPU)
+# torch>=2.4.0+cu118   # PyTorch with CUDA 11.8
+# torchvision>=0.19.0+cu118
+
+# Optional: For AMD GPU support (experimental)
+# torch-directml>=0.2.0
