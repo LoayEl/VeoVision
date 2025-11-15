@@ -1,0 +1,23 @@
+# Dataset (download from Roboflow)
+football-players-detection-20/
+
+# Other training runs (only train9 is included)
+runs/detect/train/
+runs/detect/train6/
+runs/detect/val/
+runs/detect/val6/
+runs/detect/val9/
+
+# Intermediate model files
+runs/detect/train9/weights/last.pt
+runs/detect/train9/*.zip
+runs/detect/train9/*.json
+
+# YOLOv8 base models (will be downloaded automatically)
+yolov8n.pt
+yolov8x.pt
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
