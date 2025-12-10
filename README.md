@@ -1,3 +1,7 @@
+# About The Project
+
+![VeoVision LOGO.png](VeoVision%20LOGO.png)
+
 # VeoVision - Soccer Video Analysis
 
 Automated soccer video analysis tools using AI to detect players, track the ball, classify teams, and create tactical visualizations.
@@ -47,6 +51,9 @@ python veo_project/veo_scripts/script_name.py
 
 ## Available Scripts
 
+## Warning: Models can take upwards of ~20 min per 30 second input video clip depending on your CPU.
+## It's also better if you can run this code using your GPU.
+
 ### 1. **video_processing_combined.py**
 Original video with AI annotations
 
@@ -57,6 +64,9 @@ Original video with AI annotations
 - Overlays pitch lines on the video
 
 **Output:** Original video with colored annotations and pitch lines
+
+Example screenshot:
+![example_video_processing_combined.png](example_video_processing_combined.png)
 
 **Run:**
 ```bash
@@ -76,6 +86,9 @@ Bird's-eye tactical view with possession tracking
 
 **Output:** 2D tactical diagram with possession indicator
 
+Example screenshot:
+![example_2d_pitch.png](example_2d_pitch.png)
+
 **Run:**
 ```bash
 python veo_project/veo_scripts/pitch_2d_visualization.py
@@ -83,24 +96,7 @@ python veo_project/veo_scripts/pitch_2d_visualization.py
 
 ---
 
-### 3. **voronoi_heatmap.py**
-Territorial control heatmap
-
-**What it does:**
-- Generates Voronoi diagram
-- Shows which team controls each area
-- Color-coded territorial zones
-
-**Output:** Pure heatmap showing team control
-
-**Run:**
-```bash
-python veo_project/veo_scripts/voronoi_heatmap.py
-```
-
----
-
-### 4. **combined_pitch_heatmap.py**
+### 3. **combined_pitch_heatmap.py**
 Combined heatmap + player positions
 
 **What it does:**
@@ -111,6 +107,9 @@ Combined heatmap + player positions
 
 **Output:** Heatmap with player markers and possession indicator
 
+Example screenshot:
+![example_2d_heatmap.png](example_2d_heatmap.png)
+
 **Run:**
 ```bash
 python veo_project/veo_scripts/combined_pitch_heatmap.py
@@ -118,7 +117,7 @@ python veo_project/veo_scripts/combined_pitch_heatmap.py
 
 ---
 
-### 5. **ball_tracking.py**
+### 4. **ball_tracking.py**
 Ball trajectory visualization
 
 **What it does:**
@@ -128,6 +127,9 @@ Ball trajectory visualization
 - Removes outlier detections
 
 **Output:** 2D pitch with ball's path traced in white
+
+Example screenshot:
+![example_ball_tracking.png](example_ball_tracking.png)
 
 **Run:**
 ```bash
