@@ -65,7 +65,6 @@ Original video with AI annotations
 
 **Output:** Original video with colored annotations and pitch lines
 
-Example screenshot:
 ![example_video_processing_combined.PNG](example_video_processing_combined.PNG)
 
 **Run:**
@@ -86,7 +85,6 @@ Bird's-eye tactical view with possession tracking
 
 **Output:** 2D tactical diagram with possession indicator
 
-Example screenshot:
 ![example_2d_pitch.PNG](example_2d_pitch.PNG)
 
 **Run:**
@@ -107,7 +105,6 @@ Combined heatmap + player positions
 
 **Output:** Heatmap with player markers and possession indicator
 
-Example screenshot:
 ![example_2d_heatmap.PNG](example_2d_heatmap.PNG)
 
 **Run:**
@@ -128,7 +125,6 @@ Ball trajectory visualization
 
 **Output:** 2D pitch with ball's path traced in white
 
-Example screenshot:
 ![example_ball_tracking.PNG](example_ball_tracking.PNG)
 
 **Run:**
